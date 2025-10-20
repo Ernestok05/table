@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Colorful Tables Example (External + Inline CSS)</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Inline CSS applied on headings to override external color -->
+  <h2 style="color:darkgreen;">Table 1</h2>
+
+  <!-- Inline CSS changes the width and margin -->
+  <table style="width:90%; margin-bottom:50px;">
+    <tr>
+      <th>Product</th>
+      <th>Price</th>
+      <th>Quantity</th>
+      <th>Total</th>
+      <th>Supplier</th>
+    </tr>
+    <tr>
+      <td>Apples</td>
+      <td>KES 20</td>
+      <td>10</td>
+      <td>KES 200</td>
+      <td>Fresh Farms</td>
+    </tr>
+    <tr>
+      <td>Oranges</td>
+      <td>KES 60</td>
+      <td>8</td>
+      <td>KES 480</td>
+      <td>Tropical Ltd</td>
+    </tr>
+    <tr>
+      <td>Bananas</td>
+      <td>KES 30</td>
+      <td>12</td>
+      <td>KES 360</td>
+      <td>Green Valley</td>
+    </tr>
+    <tr>
+      <td>Mangoes</td>
+      <td>KES 50</td>
+      <td>6</td>
+      <td>KES 300</td>
+      <td>Sunshine Farm</td>
+    </tr>
+  </table>
+
+  <h2 style="color:purple;">Table 2</h2>
+  <table>
+    <tr>
+      <th>Farmer</th>
+      <th>Location</th>
+      <th>Contact</th>
+      <th>Product</th>
+      <th>Farm Size (Acres)</th>
+    </tr>
+    <tr>
+      <td>James</td>
+      <td>Murang’a</td>
+      <td>0723456789</td>
+      <td>Bananas</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Mary</td>
+      <td>Kisii</td>
+      <td>0712345678</td>
+      <td>Oranges</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Peter</td>
+      <td>Machakos</td>
+      <td>0734567890</td>
+      <td>Mangoes</td>
+      <td>5</td>
+    </tr>
+    <tr style="background-color:#ffd6e0;"> <!-- Inline style overrides external row color -->
+      <td>Lucy</td>
+      <td>Embu</td>
+      <td>0798765432</td>
+      <td>Avocados</td>
+      <td>7</td>
+    </tr>
+  </table>
+</body>
+</html>
